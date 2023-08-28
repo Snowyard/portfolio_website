@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/portrait.png" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Bruno Brett.</span>
+                    An Engineering Student at<span> UBC</span>
+                </h1>
+                <p>
+                    I am an Electrical Engineering Student who loves to create interesting projects. 
+                    My passion for electronics drives me to explore innovative ideas and turn them into reality. 
+                    From circuit design to practical applications, I thrive on transforming concepts into functional, tangible projects.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>My <span>Projects</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        Starting from my younger days, I've always been captivated by the world of coding. I began with exploring data science projects and building websites, then delved into the art of web scraping <a class="github-link" href="https://github.com/Snowyard">[Explore my GitHub profile]</a>. Today, my passion has found a thrilling focus – creating a self-levelling quadcopter. This project embodies my dedication to blending coding expertise with hands-on engineering.
+                    </p>
+                    
+                    <div class="btn-con">
+                        <a href="#" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <img src="img/about_page.png" alt="" width="480" height="640">
+                </div>
+            </div>
+            
+            <h4 class="stat-title">My Certifications</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2018 - 2019</p>
+                    <h5>The Complete Data Science Bootcamp  <span> - Data Science</span></h5>
+                    <p>
+                        Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python, Machine & Deep Learning.
+                        <br><a class="github-link" href="https://www.udemy.com/certificate/UC-685fd089-9a19-4537-b447-8f23f10903b2/">Credential Link</a>
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - 2022</p>
+                    <h5>Beginning C++ Programming - From Beginner To Beyond<span> - C++</span></h5>
+                    <p>
+                        Covered topics including, Inheritance, Polymorphism, Smart Pointers, Exception Handling, I/O streams, STL Library, and Lambda Expressions.
+                        <br><a class="github-link" href="https://www.udemy.com/certificate/UC-685fd089-9a19-4537-b447-8f23f10903b2/">Credential Link</a>
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - 2023</p>
+                    <h5>Intro To TensorFlow<span> - Deep Learning</span></h5>
+                    <p>
+                        Covers Transfer Learning, Time Series Forecasting, NLP: Tokenization, Embeddings, and Recurrent Neural Networks.
+                        <br><a class="github-link" href="https://www.udemy.com/certificate/UC-685fd089-9a19-4537-b447-8f23f10903b2/">Credential Link</a>
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - 2023</p>
+                    <h5>Scrapy Course - Python Webscraping For Beginners<span> - Webscraping</span></h5>
+                    <p>
+                        Covered the creation of my first Scrapy spider, crawling and scraping data from websites, data cleaning with Items and Item Pipelines, saving data to CSV files, MySQL, and Postgres databasesand using fake user-agents and headers to prevent blocks.
+                        <br><a class="github-link" href="https://www.youtube.com/watch?v=mBoX_JCKZTE&t=6725s">Credential Link</a>
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
